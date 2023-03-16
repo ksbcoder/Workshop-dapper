@@ -14,7 +14,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\Infrastructure.DrivenAdapter.csproj" />
+    <ProjectReference Include="..\Domain.Entities\Domain.Entities.csproj" />
+    <ProjectReference Include="..\Domain.UseCases\Domain.UseCases.csproj" />
+    <ProjectReference Include="..\Infrastructure.DrivenAdapter\Infrastructure.DrivenAdapter.csproj" />
   </ItemGroup>
+
 
 </Project>
