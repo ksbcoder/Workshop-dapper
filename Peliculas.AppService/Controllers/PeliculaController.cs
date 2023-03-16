@@ -17,7 +17,6 @@ namespace Peliculas.AppService.Controllers
         }
 
         [HttpGet]
-
         public async Task<List<Pelicula>> Obtener_Peliculas()
         {
             return await _peliculaUseCase.ObtenerListadoPeliculas();
