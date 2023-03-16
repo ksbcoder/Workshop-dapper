@@ -20,6 +20,9 @@ builder.Services.AddAutoMapper(config => config.AddDataReaderMapping(), typeof(C
 builder.Services.AddScoped<IDirectorUseCase, DirectorUseCase>();
 builder.Services.AddScoped<IDirectorRepository, DirectorRepository>();
 
+builder.Services.AddScoped<IPeliculaUseCase, PeliculaUseCase>();
+builder.Services.AddScoped<IPeliculaRepository, PeliculaRepository>();
+
 
 builder.Services.AddTransient<IDbConnectionBuilder>(e =>
 {

@@ -12,6 +12,6 @@ namespace Domain.Entities.Entities
         public string Nombre_Pelicula { get; set; }
         public int Lanzamiento { get; set; }
         public int Cantidad_Disponible { get; set; }
-        public int DirectorId { get; set; }
+        public int Id_Director { get; set; }
     }
 }
