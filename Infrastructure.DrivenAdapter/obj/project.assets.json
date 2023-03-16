@@ -2259,11 +2259,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\julian.escobar\\source\\repos\\Workshop_Dapper\\Infrastructure.DrivenAdapter\\Infrastructure.DrivenAdapterd.csproj",
-      "projectName": "Infrastructure.DrivenAdapterd",
-      "projectPath": "C:\\Users\\julian.escobar\\source\\repos\\Workshop_Dapper\\Infrastructure.DrivenAdapter\\Infrastructure.DrivenAdapterd.csproj",
+      "projectUniqueName": "C:\\Users\\julian.escobar\\source\\repos\\Workshop_Dapper\\ClassLibrary1\\Infrastructure.DrivenAdapter.csproj",
+      "projectName": "Infrastructure.DrivenAdapter",
+      "projectPath": "C:\\Users\\julian.escobar\\source\\repos\\Workshop_Dapper\\ClassLibrary1\\Infrastructure.DrivenAdapter.csproj",
       "packagesPath": "C:\\Users\\julian.escobar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\julian.escobar\\source\\repos\\Workshop_Dapper\\Infrastructure.DrivenAdapter\\obj\\",
+      "outputPath": "C:\\Users\\julian.escobar\\source\\repos\\Workshop_Dapper\\ClassLibrary1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\julian.escobar\\AppData\\Roaming\\NuGet\\NuGet.Config",

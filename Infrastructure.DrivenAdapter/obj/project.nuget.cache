@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8m5RELMQJUrqx6ChoigdIOuBIOqHzd2SAr314fonAHplV0SMhVwgJ+PGNU/p1ZuR7NKz+3zXTeF+MJenB0NAoQ==",
+  "dgSpecHash": "Vc1ocueGq+qIaY1Ac2HsUor0HA1u+qu9ZIDHet+vt4v6DYHp/1jjsG9jxn6a8Zg4yu/GorWpmKw3hoWKshBQ6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\julian.escobar\\source\\repos\\Workshop_Dapper\\Infrastructure.DrivenAdapter\\Infrastructure.DrivenAdapterd.csproj",
+  "projectFilePath": "C:\\Users\\julian.escobar\\source\\repos\\Workshop_Dapper\\ClassLibrary1\\Infrastructure.DrivenAdapter.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\julian.escobar\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\julian.escobar\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

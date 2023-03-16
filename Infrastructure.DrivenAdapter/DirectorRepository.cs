@@ -1,4 +1,5 @@
-﻿using Domain.Entities.Entities;
+﻿using Dapper;
+using Domain.Entities.Entities;
 using Domain.UseCases.Gateway.Repository;
 using Infrastructure.DrivenAdapter.Gateway;
 using System;
@@ -20,9 +21,12 @@ namespace Infrastructure.DrivenAdapter
             _dbConnectionBuilder = dbConnectionBuilder;
         }
 
-        public Task<List<Director>> GetAllDirectorsAsync()
+        public async Task<List<Director>> GetAllDirectorsAsync()
         {
-            throw new NotImplementedException();
+            var connection = await _dbConnectionBuilder.CreateConnectionAsync();
+            string sqlQuery = "SELECT * FROM directores";
+            var result = await connection.QueryAsync<Director>(sqlQuery);
+            return result.ToList();
         }
 
         public Task<Director> InsertDirectorAsync(Director director)
