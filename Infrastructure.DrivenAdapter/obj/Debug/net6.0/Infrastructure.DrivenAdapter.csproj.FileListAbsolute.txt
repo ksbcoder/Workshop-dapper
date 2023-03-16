@@ -1,0 +1,5 @@
+C:\Users\julian.escobar\source\repos\Workshop_Dapper\Infrastructure.DrivenAdapter\obj\Debug\net6.0\Infrastructure.DrivenAdapter.csproj.AssemblyReference.cache
+C:\Users\julian.escobar\source\repos\Workshop_Dapper\Infrastructure.DrivenAdapter\obj\Debug\net6.0\Infrastructure.DrivenAdapter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julian.escobar\source\repos\Workshop_Dapper\Infrastructure.DrivenAdapter\obj\Debug\net6.0\Infrastructure.DrivenAdapter.AssemblyInfoInputs.cache
+C:\Users\julian.escobar\source\repos\Workshop_Dapper\Infrastructure.DrivenAdapter\obj\Debug\net6.0\Infrastructure.DrivenAdapter.AssemblyInfo.cs
+C:\Users\julian.escobar\source\repos\Workshop_Dapper\Infrastructure.DrivenAdapter\obj\Debug\net6.0\Infrastructure.DrivenAdapter.csproj.CoreCompileInputs.cache
