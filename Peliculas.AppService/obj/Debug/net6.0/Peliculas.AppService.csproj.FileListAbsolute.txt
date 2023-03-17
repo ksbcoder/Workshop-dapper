@@ -74,3 +74,6 @@ C:\Users\julian.escobar\source\repos\Workshop_Dapper\Peliculas.AppService\bin\De
 C:\Users\julian.escobar\source\repos\Workshop_Dapper\Peliculas.AppService\bin\Debug\net6.0\Infrastructure.DrivenAdapter.pdb
 C:\Users\julian.escobar\source\repos\Workshop_Dapper\Peliculas.AppService\bin\Debug\net6.0\Domain.Entities.pdb
 C:\Users\julian.escobar\source\repos\Workshop_Dapper\Peliculas.AppService\bin\Debug\net6.0\Domain.UseCases.pdb
+C:\Users\julian.escobar\source\repos\Workshop_Dapper\Peliculas.AppService\bin\Debug\net6.0\Humanizer.dll
+C:\Users\julian.escobar\source\repos\Workshop_Dapper\Peliculas.AppService\bin\Debug\net6.0\SqlKata.dll
+C:\Users\julian.escobar\source\repos\Workshop_Dapper\Peliculas.AppService\bin\Debug\net6.0\SqlKata.Execution.dll

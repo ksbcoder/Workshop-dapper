@@ -26,11 +26,5 @@ namespace Peliculas.AppService.Controllers
             return await _peliculaUseCase.ObtenerListadoPeliculas();
         }
 
-        [HttpPost]
-
-        public async Task<Pelicula> Insertar_Pelicula([FromBody] InsertNewMovie command)
-        {
-            return await _peliculaUseCase.AgregarPelicula(_mapper.Map<Pelicula>(command));
-        }
     }
 }

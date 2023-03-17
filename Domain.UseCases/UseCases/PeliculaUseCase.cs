@@ -18,9 +18,9 @@ namespace Domain.UseCases.UseCases
             _peliculaRepository = peliculaRepository;
         }
 
-        public async Task<Pelicula> AgregarPelicula(Pelicula pelicula)
+        public Task<Pelicula> AgregarPelicula(Pelicula pelicula)
         {
-            return await _peliculaRepository.InsertMovieAsync(pelicula);
+            throw new NotImplementedException();
         }
 
         public async Task<List<Pelicula>> ObtenerListadoPeliculas()

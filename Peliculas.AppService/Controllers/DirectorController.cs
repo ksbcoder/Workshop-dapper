@@ -28,16 +28,6 @@ namespace Peliculas.AppService.Controllers
             return await _directorUseCase.ObtenerListaDirectores();
         }
 
-        [HttpGet("directorporid")]
-        public async Task<Director> Obtener__Director_Por_Id([FromQuery] int idDirector)
-        {
-            return await _directorUseCase.ObtenerDirectorPorId(idDirector);
-        }
 
-        [HttpPost]
-        public async Task<Director> Insertar_Director([FromBody] InsertNewDirector command)
-        {
-            return await _directorUseCase.AgregarDirector(_mapper.Map<Director>(command));
-        }
     }
 }

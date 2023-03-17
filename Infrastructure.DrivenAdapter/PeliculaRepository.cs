@@ -2,6 +2,8 @@
 using Domain.Entities.Entities;
 using Domain.UseCases.Gateway.Repository;
 using Infrastructure.DrivenAdapter.Gateway;
+using SqlKata.Compilers;
+using SqlKata.Execution;
 using System.IO;
 
 namespace Infrastructure.DrivenAdapter
@@ -36,6 +38,11 @@ namespace Infrastructure.DrivenAdapter
             string sqlQuery = $"INSERT INTO {tableName} (nombre_pelicula, lanzamiento, cantidad_disponible, id_director)VALUES(@nombre, @lanzamiento, @cantidad, @idDirector)";
             var rows = await connection.ExecuteAsync(sqlQuery, ff);
             return pelicula;
+        }
+
+        public Task<Pelicula> InsertMovieSqlKataAsync(Pelicula pelicula)
+        {
+            throw new NotImplementedException();
         }
     }
 }

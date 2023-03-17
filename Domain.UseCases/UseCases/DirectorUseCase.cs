@@ -19,14 +19,19 @@ namespace Domain.UseCases.UseCases
             _directorRepository = directorRepository;
         }
 
-        public async Task<Director> AgregarDirector(Director director)
+        public Task<Director> AgregarDirector(Director director)
         {
-            return await _directorRepository.InsertDirectorAsync(director);
+            throw new NotImplementedException();
         }
 
-        public async Task<Director> ObtenerDirectorPorId(int id)
+        public Task<Director> InsertarDirectorConKata(Director director)
         {
-            return await _directorRepository.GetDirectorByIdAsync(id);
+            throw new NotImplementedException();
+        }
+
+        public Task<Director> ObtenerDirectorPorId(int id)
+        {
+            throw new NotImplementedException();
         }
 
         public async Task<List<Director>> ObtenerListaDirectores()

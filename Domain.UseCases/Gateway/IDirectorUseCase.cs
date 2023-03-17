@@ -15,7 +15,7 @@ namespace Domain.UseCases.Gateway
 
         Task<Director> ObtenerDirectorPorId(int id);
 
-
+        Task<Director> InsertarDirectorConKata(Director director);
 
     }
 }

@@ -2,6 +2,8 @@
 using Domain.Entities.Entities;
 using Domain.UseCases.Gateway.Repository;
 using Infrastructure.DrivenAdapter.Gateway;
+using SqlKata.Compilers;
+using SqlKata.Execution;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -31,24 +33,19 @@ namespace Infrastructure.DrivenAdapter
             return result.ToList();
         }
 
-        public async Task<Director> GetDirectorByIdAsync(int idDirector)
+        public Task<Director> GetDirectorByIdAsync(int idDirector)
         {
-            var connection = await _dbConnectionBuilder.CreateConnectionAsync();
-            string sqlQuery = $"SELECT * FROM {tableName} WHERE id = @idDirector ";
-            var result = await connection.QuerySingleAsync<Director>(sqlQuery, new { idDirector = idDirector });
-            connection.Close();
-            return result;
-            
+            throw new NotImplementedException();
         }
 
-        public async Task<Director> InsertDirectorAsync(Director director)
+        public Task<Director> InsertDirectorAsync(Director director)
         {
-            var connection = await _dbConnectionBuilder.CreateConnectionAsync();
-            var ff = new { nombre = director.Nombre, fecha = director.Fecha_Nacimiento, premios = director.Cantidad_Premios };
-            string sqlQuery = "INSERT INTO directores (nombre, fecha_nacimiento, cantidad_premios) VALUES (@nombre, @fecha, @premios)";
-            var rows = await connection.ExecuteAsync(sqlQuery, ff);
-            return director;
-        
+            throw new NotImplementedException();
+        }
+
+        public Task<Director> InsertDirectorSqlKataAsync(Director director)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -11,6 +11,8 @@ namespace Domain.UseCases.Gateway.Repository
     {
         Task<Pelicula> InsertMovieAsync(Pelicula pelicula);
 
+        Task<Pelicula> InsertMovieSqlKataAsync(Pelicula pelicula);
+
         Task<List<Pelicula>> GetMoviesAsync();
     }
 }

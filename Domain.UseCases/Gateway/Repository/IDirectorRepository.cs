@@ -14,5 +14,7 @@ namespace Domain.UseCases.Gateway.Repository
         Task<List<Director>> GetAllDirectorsAsync();
 
         Task<Director> GetDirectorByIdAsync(int idDirector);
+
+        Task<Director> InsertDirectorSqlKataAsync(Director director);
     }
 }
