@@ -1,4 +1,6 @@
-﻿using Domain.Entities.Entities;
+﻿using AutoMapper;
+using Domain.Entities.Commands;
+using Domain.Entities.Entities;
 using Domain.UseCases.Gateway;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -10,16 +12,25 @@ namespace Peliculas.AppService.Controllers
     public class PeliculaController : ControllerBase
     {
         private readonly IPeliculaUseCase _peliculaUseCase;
+        private readonly IMapper _mapper;
 
-        public PeliculaController(IPeliculaUseCase peliculaUseCase)
+        public PeliculaController(IPeliculaUseCase peliculaUseCase, IMapper mapper)
         {
             _peliculaUseCase = peliculaUseCase;
+            _mapper = mapper;
         }
 
         [HttpGet]
         public async Task<List<Pelicula>> Obtener_Peliculas()
         {
             return await _peliculaUseCase.ObtenerListadoPeliculas();
+        }
+
+        [HttpPost]
+
+        public async Task<Pelicula> Insertar_Pelicula([FromBody] InsertNewMovie command)
+        {
+            return await _peliculaUseCase.AgregarPelicula(_mapper.Map<Pelicula>(command));
         }
     }
 }

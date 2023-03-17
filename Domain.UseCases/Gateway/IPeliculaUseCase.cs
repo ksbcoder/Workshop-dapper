@@ -10,5 +10,7 @@ namespace Domain.UseCases.Gateway
     public interface IPeliculaUseCase
     {
         Task<List<Pelicula>> ObtenerListadoPeliculas();
+
+        Task<Pelicula> AgregarPelicula(Pelicula pelicula);
     }
 }

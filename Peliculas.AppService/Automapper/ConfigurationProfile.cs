@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using Domain.Entities.Commands;
+using Domain.Entities.Entities;
 
 namespace Peliculas.AppService.Automapper
 {
@@ -7,7 +9,8 @@ namespace Peliculas.AppService.Automapper
 
         public ConfigurationProfile()
         {
-            
+            CreateMap<InsertNewDirector, Director>().ReverseMap();
+            CreateMap<InsertNewMovie, Pelicula>().ReverseMap();
         }
     }
 }

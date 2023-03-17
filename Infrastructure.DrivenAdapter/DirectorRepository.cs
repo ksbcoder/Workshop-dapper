@@ -15,6 +15,7 @@ namespace Infrastructure.DrivenAdapter
     {
 
         private readonly IDbConnectionBuilder _dbConnectionBuilder;
+        private readonly string tableName = "directores";
 
         public DirectorRepository(IDbConnectionBuilder dbConnectionBuilder)
         {
@@ -24,14 +25,30 @@ namespace Infrastructure.DrivenAdapter
         public async Task<List<Director>> GetAllDirectorsAsync()
         {
             var connection = await _dbConnectionBuilder.CreateConnectionAsync();
-            string sqlQuery = "SELECT * FROM directores";
+            string sqlQuery = $"SELECT * FROM {tableName}";
             var result = await connection.QueryAsync<Director>(sqlQuery);
+            connection.Close();
             return result.ToList();
         }
 
-        public Task<Director> InsertDirectorAsync(Director director)
+        public async Task<Director> GetDirectorByIdAsync(int idDirector)
         {
-            throw new NotImplementedException();
+            var connection = await _dbConnectionBuilder.CreateConnectionAsync();
+            string sqlQuery = $"SELECT * FROM {tableName} WHERE id = @idDirector ";
+            var result = await connection.QuerySingleAsync<Director>(sqlQuery, new { idDirector = idDirector });
+            connection.Close();
+            return result;
+            
+        }
+
+        public async Task<Director> InsertDirectorAsync(Director director)
+        {
+            var connection = await _dbConnectionBuilder.CreateConnectionAsync();
+            var ff = new { nombre = director.Nombre, fecha = director.Fecha_Nacimiento, premios = director.Cantidad_Premios };
+            string sqlQuery = "INSERT INTO directores (nombre, fecha_nacimiento, cantidad_premios) VALUES (@nombre, @fecha, @premios)";
+            var rows = await connection.ExecuteAsync(sqlQuery, ff);
+            return director;
+        
         }
     }
 }

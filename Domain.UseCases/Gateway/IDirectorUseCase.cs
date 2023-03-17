@@ -16,5 +16,6 @@ namespace Domain.UseCases.Gateway
         Task<Director> ObtenerDirectorPorId(int id);
 
 
+
     }
 }

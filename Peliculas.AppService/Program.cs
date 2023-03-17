@@ -5,6 +5,7 @@ using Domain.UseCases.UseCases;
 using Infrastructure.DrivenAdapter;
 using Infrastructure.DrivenAdapter.Gateway;
 using Microsoft.Extensions.Configuration;
+using Peliculas.AppService;
 using Peliculas.AppService.Automapper;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -43,4 +44,5 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
+app.UseMiddleware<ErrorHandleMiddleware>();
 app.Run();
