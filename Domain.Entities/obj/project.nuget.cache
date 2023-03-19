@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L60C3irvIR9PnxZPMoaJPgYRGLxxSmuPoRxOUzxufotn1TCcWrjD6smYib5Z0RS0GMM3KsTslRhRA2JsziO9sg==",
+  "dgSpecHash": "kcKVEP9DagT9JwLsIjqXoNPtrelmLOcZwp3tsqj4Nu3jHtPtQhfDsrsq7yUnvFlS3hh7Gq8PaDgRmLzN2gOKYA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\julian.escobar\\source\\repos\\Workshop_Dapper\\Domain.Entities\\Domain.Entities.csproj",
+  "projectFilePath": "C:\\Users\\kevin\\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\\Sofka\\Training\\Dev\\Semana 8\\Dapper_Movies\\Domain.Entities\\Domain.Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

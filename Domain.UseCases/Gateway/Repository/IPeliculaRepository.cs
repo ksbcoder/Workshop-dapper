@@ -1,9 +1,4 @@
 ﻿using Domain.Entities.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Domain.UseCases.Gateway.Repository
 {
@@ -14,5 +9,11 @@ namespace Domain.UseCases.Gateway.Repository
         Task<Pelicula> InsertMovieSqlKataAsync(Pelicula pelicula);
 
         Task<List<Pelicula>> GetMoviesAsync();
+
+        Task<Pelicula> GetMovieByIdSqlKataAsync(int id);
+
+        Task<IEnumerable<PeliculaConDirector>> GetMovieWithDirectorById(int id);
+
+        Task<PeliculaConDirector> GetMovieWithDirectorByIdSqlKataAsync(int id);
     }
 }

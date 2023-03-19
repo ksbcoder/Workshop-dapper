@@ -32,3 +32,37 @@ C:\Users\julian.escobar\source\repos\Workshop_Dapper\Infrastructure.DrivenAdapte
 C:\Users\julian.escobar\source\repos\Workshop_Dapper\Infrastructure.DrivenAdapter\obj\Debug\net6.0\refint\Infrastructure.DrivenAdapter.dll
 C:\Users\julian.escobar\source\repos\Workshop_Dapper\Infrastructure.DrivenAdapter\obj\Debug\net6.0\Infrastructure.DrivenAdapter.pdb
 C:\Users\julian.escobar\source\repos\Workshop_Dapper\Infrastructure.DrivenAdapter\obj\Debug\net6.0\ref\Infrastructure.DrivenAdapter.dll
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Infrastructure.DrivenAdapter\bin\Debug\net6.0\Infrastructure.DrivenAdapter.deps.json
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Infrastructure.DrivenAdapter\bin\Debug\net6.0\Infrastructure.DrivenAdapter.dll
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Infrastructure.DrivenAdapter\bin\Debug\net6.0\Infrastructure.DrivenAdapter.pdb
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Infrastructure.DrivenAdapter\bin\Debug\net6.0\Domain.Entities.dll
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Infrastructure.DrivenAdapter\bin\Debug\net6.0\Domain.UseCases.dll
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Infrastructure.DrivenAdapter\bin\Debug\net6.0\Domain.Entities.pdb
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Infrastructure.DrivenAdapter\bin\Debug\net6.0\Domain.UseCases.pdb
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Infrastructure.DrivenAdapter\obj\Debug\net6.0\Infrastructure.DrivenAdapter.csproj.AssemblyReference.cache
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Infrastructure.DrivenAdapter\obj\Debug\net6.0\Infrastructure.DrivenAdapter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Infrastructure.DrivenAdapter\obj\Debug\net6.0\Infrastructure.DrivenAdapter.AssemblyInfoInputs.cache
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Infrastructure.DrivenAdapter\obj\Debug\net6.0\Infrastructure.DrivenAdapter.AssemblyInfo.cs
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Infrastructure.DrivenAdapter\obj\Debug\net6.0\Infrastructure.DrivenAdapter.csproj.CoreCompileInputs.cache
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Infrastructure.DrivenAdapter\obj\Debug\net6.0\Infrastructure.DrivenAdapter.csproj.CopyComplete
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Infrastructure.DrivenAdapter\obj\Debug\net6.0\Infrastructure.DrivenAdapter.dll
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Infrastructure.DrivenAdapter\obj\Debug\net6.0\refint\Infrastructure.DrivenAdapter.dll
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Infrastructure.DrivenAdapter\obj\Debug\net6.0\Infrastructure.DrivenAdapter.pdb
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Infrastructure.DrivenAdapter\obj\Debug\net6.0\ref\Infrastructure.DrivenAdapter.dll
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Infrastructure.DrivenAdapter\bin\Debug\net6.0\Infrastructure.DrivenAdapter.deps.json
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Infrastructure.DrivenAdapter\bin\Debug\net6.0\Infrastructure.DrivenAdapter.dll
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Infrastructure.DrivenAdapter\bin\Debug\net6.0\Infrastructure.DrivenAdapter.pdb
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Infrastructure.DrivenAdapter\bin\Debug\net6.0\Domain.Entities.dll
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Infrastructure.DrivenAdapter\bin\Debug\net6.0\Domain.UseCases.dll
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Infrastructure.DrivenAdapter\bin\Debug\net6.0\Domain.Entities.pdb
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Infrastructure.DrivenAdapter\bin\Debug\net6.0\Domain.UseCases.pdb
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Infrastructure.DrivenAdapter\obj\Debug\net6.0\Infrastructure.DrivenAdapter.csproj.AssemblyReference.cache
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Infrastructure.DrivenAdapter\obj\Debug\net6.0\Infrastructure.DrivenAdapter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Infrastructure.DrivenAdapter\obj\Debug\net6.0\Infrastructure.DrivenAdapter.AssemblyInfoInputs.cache
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Infrastructure.DrivenAdapter\obj\Debug\net6.0\Infrastructure.DrivenAdapter.AssemblyInfo.cs
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Infrastructure.DrivenAdapter\obj\Debug\net6.0\Infrastructure.DrivenAdapter.csproj.CoreCompileInputs.cache
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Infrastructure.DrivenAdapter\obj\Debug\net6.0\Infrastructure.DrivenAdapter.csproj.CopyComplete
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Infrastructure.DrivenAdapter\obj\Debug\net6.0\Infrastructure.DrivenAdapter.dll
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Infrastructure.DrivenAdapter\obj\Debug\net6.0\refint\Infrastructure.DrivenAdapter.dll
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Infrastructure.DrivenAdapter\obj\Debug\net6.0\Infrastructure.DrivenAdapter.pdb
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Infrastructure.DrivenAdapter\obj\Debug\net6.0\ref\Infrastructure.DrivenAdapter.dll

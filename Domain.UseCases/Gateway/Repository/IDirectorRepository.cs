@@ -13,7 +13,7 @@ namespace Domain.UseCases.Gateway.Repository
 
         Task<List<Director>> GetAllDirectorsAsync();
 
-        Task<Director> GetDirectorByIdAsync(int idDirector);
+        Task<Director> GetDirectorByIdAsync(int directorID);
 
         Task<Director> InsertDirectorSqlKataAsync(Director director);
     }

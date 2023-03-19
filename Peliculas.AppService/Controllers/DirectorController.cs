@@ -28,6 +28,22 @@ namespace Peliculas.AppService.Controllers
             return await _directorUseCase.ObtenerListaDirectores();
         }
 
+        [HttpGet("id")]
+        public async Task<Director> Obtener_Director_Por_Id(int directorID)
+        {
+            return await _directorUseCase.ObtenerDirectorPorId(directorID);
+        }
 
+        [HttpPost]
+        public async Task<Director> Agregar_Director(InsertNewDirector directorCommand)
+        {
+            return await _directorUseCase.AgregarDirector(_mapper.Map<Director>(directorCommand));
+        }
+
+        [HttpPost("SqlKata")]
+        public async Task<Director> Agregar_Director_Con_Kata(InsertNewDirector directorCommand)
+        {
+            return await _directorUseCase.InsertarDirectorConKata(_mapper.Map<Director>(directorCommand));
+        }
     }
 }

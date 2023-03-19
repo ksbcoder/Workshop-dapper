@@ -1,9 +1,4 @@
 ﻿using Domain.Entities.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Domain.UseCases.Gateway
 {
@@ -11,6 +6,14 @@ namespace Domain.UseCases.Gateway
     {
         Task<List<Pelicula>> ObtenerListadoPeliculas();
 
+        Task<Pelicula> ObtenerPeliculaByIdSqlKata(int id);
+
+        Task<IEnumerable<PeliculaConDirector>> ObternerPeliculaConDirectorById(int id);
+
+        Task<PeliculaConDirector> ObternerPeliculaConDirectorByIdSqlKata(int id);
+
         Task<Pelicula> AgregarPelicula(Pelicula pelicula);
+
+        Task<Pelicula> AgregarPeliculaSqlKata(Pelicula pelicula);
     }
 }

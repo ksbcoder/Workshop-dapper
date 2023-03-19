@@ -4,12 +4,6 @@ using Domain.UseCases.Gateway.Repository;
 using Infrastructure.DrivenAdapter.Gateway;
 using SqlKata.Compilers;
 using SqlKata.Execution;
-using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Infrastructure.DrivenAdapter
 {
@@ -33,19 +27,47 @@ namespace Infrastructure.DrivenAdapter
             return result.ToList();
         }
 
-        public Task<Director> GetDirectorByIdAsync(int idDirector)
+        public async Task<Director> GetDirectorByIdAsync(int directorID)
         {
-            throw new NotImplementedException();
+            var connection = await _dbConnectionBuilder.CreateConnectionAsync();
+            string sqlQuery = $"SELECT * FROM {tableName} WHERE id = @directorID";
+            var result = await connection.QuerySingleAsync<Director>(sqlQuery, new { directorID });
+            connection.Close();
+            return result;
         }
 
-        public Task<Director> InsertDirectorAsync(Director director)
+        public async Task<Director> InsertDirectorAsync(Director director)
         {
-            throw new NotImplementedException();
+            var connection = await _dbConnectionBuilder.CreateConnectionAsync();
+            var directorAgregar = new
+            {
+                nombre = director.Nombre,
+                fecha_nacimiento = director.Fecha_Nacimiento,
+                cantidad_premios = director.Cantidad_Premios
+            };
+
+            string sqlQuery = $"INSERT INTO {tableName} (nombre, fecha_nacimiento, cantidad_premios) VALUES (@nombre, @fecha_Nacimiento, @cantidad_Premios)";
+            var result = await connection.ExecuteAsync(sqlQuery, directorAgregar);
+            connection.Close();
+            return director;
         }
 
-        public Task<Director> InsertDirectorSqlKataAsync(Director director)
+        public async Task<Director> InsertDirectorSqlKataAsync(Director director)
         {
-            throw new NotImplementedException();
+            var connection = await _dbConnectionBuilder.CreateConnectionAsync();
+
+            var factoryKata = new QueryFactory(connection, new SqlServerCompiler());
+
+            var directorAgregar = new
+            {
+                nombre = director.Nombre,
+                fecha_nacimiento = director.Fecha_Nacimiento,
+                cantidad_premios = director.Cantidad_Premios
+            };
+
+            var result = await factoryKata.Query(tableName).InsertAsync(directorAgregar);
+            connection.Close();
+            return director;
         }
     }
 }

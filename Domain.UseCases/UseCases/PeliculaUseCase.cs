@@ -1,11 +1,6 @@
 ﻿using Domain.Entities.Entities;
 using Domain.UseCases.Gateway;
 using Domain.UseCases.Gateway.Repository;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Domain.UseCases.UseCases
 {
@@ -18,14 +13,34 @@ namespace Domain.UseCases.UseCases
             _peliculaRepository = peliculaRepository;
         }
 
-        public Task<Pelicula> AgregarPelicula(Pelicula pelicula)
+        public async Task<Pelicula> AgregarPelicula(Pelicula pelicula)
         {
-            throw new NotImplementedException();
+            return await _peliculaRepository.InsertMovieAsync(pelicula);
+        }
+
+        public async Task<Pelicula> AgregarPeliculaSqlKata(Pelicula pelicula)
+        {
+            return await _peliculaRepository.InsertMovieSqlKataAsync(pelicula);
         }
 
         public async Task<List<Pelicula>> ObtenerListadoPeliculas()
         {
             return await _peliculaRepository.GetMoviesAsync();
+        }
+
+        public async Task<Pelicula> ObtenerPeliculaByIdSqlKata(int id)
+        {
+            return await _peliculaRepository.GetMovieByIdSqlKataAsync(id);
+        }
+
+        public async Task<IEnumerable<PeliculaConDirector>> ObternerPeliculaConDirectorById(int id)
+        {
+            return await _peliculaRepository.GetMovieWithDirectorById(id);
+        }
+
+        public async Task<PeliculaConDirector> ObternerPeliculaConDirectorByIdSqlKata(int id)
+        {
+            return await _peliculaRepository.GetMovieWithDirectorByIdSqlKataAsync(id);
         }
     }
 }

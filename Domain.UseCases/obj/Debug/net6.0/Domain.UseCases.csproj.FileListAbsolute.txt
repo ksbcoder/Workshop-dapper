@@ -13,3 +13,33 @@ C:\Users\julian.escobar\source\repos\Workshop_Dapper\Domain.UseCases\obj\Debug\n
 C:\Users\julian.escobar\source\repos\Workshop_Dapper\Domain.UseCases\obj\Debug\net6.0\refint\Domain.UseCases.dll
 C:\Users\julian.escobar\source\repos\Workshop_Dapper\Domain.UseCases\obj\Debug\net6.0\Domain.UseCases.pdb
 C:\Users\julian.escobar\source\repos\Workshop_Dapper\Domain.UseCases\obj\Debug\net6.0\ref\Domain.UseCases.dll
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Domain.UseCases\bin\Debug\net6.0\Domain.UseCases.deps.json
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Domain.UseCases\bin\Debug\net6.0\Domain.UseCases.dll
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Domain.UseCases\bin\Debug\net6.0\Domain.UseCases.pdb
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Domain.UseCases\bin\Debug\net6.0\Domain.Entities.dll
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Domain.UseCases\bin\Debug\net6.0\Domain.Entities.pdb
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Domain.UseCases\obj\Debug\net6.0\Domain.UseCases.csproj.AssemblyReference.cache
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Domain.UseCases\obj\Debug\net6.0\Domain.UseCases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Domain.UseCases\obj\Debug\net6.0\Domain.UseCases.AssemblyInfoInputs.cache
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Domain.UseCases\obj\Debug\net6.0\Domain.UseCases.AssemblyInfo.cs
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Domain.UseCases\obj\Debug\net6.0\Domain.UseCases.csproj.CoreCompileInputs.cache
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Domain.UseCases\obj\Debug\net6.0\Domain.UseCases.csproj.CopyComplete
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Domain.UseCases\obj\Debug\net6.0\Domain.UseCases.dll
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Domain.UseCases\obj\Debug\net6.0\refint\Domain.UseCases.dll
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Domain.UseCases\obj\Debug\net6.0\Domain.UseCases.pdb
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Workshop-dapper\Domain.UseCases\obj\Debug\net6.0\ref\Domain.UseCases.dll
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Domain.UseCases\bin\Debug\net6.0\Domain.UseCases.deps.json
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Domain.UseCases\bin\Debug\net6.0\Domain.UseCases.dll
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Domain.UseCases\bin\Debug\net6.0\Domain.UseCases.pdb
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Domain.UseCases\bin\Debug\net6.0\Domain.Entities.dll
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Domain.UseCases\bin\Debug\net6.0\Domain.Entities.pdb
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Domain.UseCases\obj\Debug\net6.0\Domain.UseCases.csproj.AssemblyReference.cache
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Domain.UseCases\obj\Debug\net6.0\Domain.UseCases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Domain.UseCases\obj\Debug\net6.0\Domain.UseCases.AssemblyInfoInputs.cache
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Domain.UseCases\obj\Debug\net6.0\Domain.UseCases.AssemblyInfo.cs
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Domain.UseCases\obj\Debug\net6.0\Domain.UseCases.csproj.CoreCompileInputs.cache
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Domain.UseCases\obj\Debug\net6.0\Domain.UseCases.csproj.CopyComplete
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Domain.UseCases\obj\Debug\net6.0\Domain.UseCases.dll
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Domain.UseCases\obj\Debug\net6.0\refint\Domain.UseCases.dll
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Domain.UseCases\obj\Debug\net6.0\Domain.UseCases.pdb
+C:\Users\kevin\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Sofka\Training\Dev\Semana 8\Dapper_Movies\Domain.UseCases\obj\Debug\net6.0\ref\Domain.UseCases.dll

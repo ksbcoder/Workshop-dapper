@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\julian.escobar\\source\\repos\\Workshop_Dapper\\Infrastructure.DrivenAdapter\\Infrastructure.DrivenAdapter.csproj": {}
+    "C:\\Users\\kevin\\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\\Sofka\\Training\\Dev\\Semana 8\\Dapper_Movies\\Infrastructure.DrivenAdapter\\Infrastructure.DrivenAdapter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\julian.escobar\\source\\repos\\Workshop_Dapper\\Domain.Entities\\Domain.Entities.csproj": {
+    "C:\\Users\\kevin\\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\\Sofka\\Training\\Dev\\Semana 8\\Dapper_Movies\\Domain.Entities\\Domain.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\julian.escobar\\source\\repos\\Workshop_Dapper\\Domain.Entities\\Domain.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\kevin\\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\\Sofka\\Training\\Dev\\Semana 8\\Dapper_Movies\\Domain.Entities\\Domain.Entities.csproj",
         "projectName": "Domain.Entities",
-        "projectPath": "C:\\Users\\julian.escobar\\source\\repos\\Workshop_Dapper\\Domain.Entities\\Domain.Entities.csproj",
-        "packagesPath": "C:\\Users\\julian.escobar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\julian.escobar\\source\\repos\\Workshop_Dapper\\Domain.Entities\\obj\\",
+        "projectPath": "C:\\Users\\kevin\\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\\Sofka\\Training\\Dev\\Semana 8\\Dapper_Movies\\Domain.Entities\\Domain.Entities.csproj",
+        "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kevin\\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\\Sofka\\Training\\Dev\\Semana 8\\Dapper_Movies\\Domain.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\julian.escobar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,21 +55,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\julian.escobar\\source\\repos\\Workshop_Dapper\\Domain.UseCases\\Domain.UseCases.csproj": {
+    "C:\\Users\\kevin\\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\\Sofka\\Training\\Dev\\Semana 8\\Dapper_Movies\\Domain.UseCases\\Domain.UseCases.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\julian.escobar\\source\\repos\\Workshop_Dapper\\Domain.UseCases\\Domain.UseCases.csproj",
+        "projectUniqueName": "C:\\Users\\kevin\\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\\Sofka\\Training\\Dev\\Semana 8\\Dapper_Movies\\Domain.UseCases\\Domain.UseCases.csproj",
         "projectName": "Domain.UseCases",
-        "projectPath": "C:\\Users\\julian.escobar\\source\\repos\\Workshop_Dapper\\Domain.UseCases\\Domain.UseCases.csproj",
-        "packagesPath": "C:\\Users\\julian.escobar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\julian.escobar\\source\\repos\\Workshop_Dapper\\Domain.UseCases\\obj\\",
+        "projectPath": "C:\\Users\\kevin\\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\\Sofka\\Training\\Dev\\Semana 8\\Dapper_Movies\\Domain.UseCases\\Domain.UseCases.csproj",
+        "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kevin\\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\\Sofka\\Training\\Dev\\Semana 8\\Dapper_Movies\\Domain.UseCases\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\julian.escobar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\julian.escobar\\source\\repos\\Workshop_Dapper\\Domain.Entities\\Domain.Entities.csproj": {
-                "projectPath": "C:\\Users\\julian.escobar\\source\\repos\\Workshop_Dapper\\Domain.Entities\\Domain.Entities.csproj"
+              "C:\\Users\\kevin\\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\\Sofka\\Training\\Dev\\Semana 8\\Dapper_Movies\\Domain.Entities\\Domain.Entities.csproj": {
+                "projectPath": "C:\\Users\\kevin\\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\\Sofka\\Training\\Dev\\Semana 8\\Dapper_Movies\\Domain.Entities\\Domain.Entities.csproj"
               }
             }
           }
@@ -114,21 +114,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\julian.escobar\\source\\repos\\Workshop_Dapper\\Infrastructure.DrivenAdapter\\Infrastructure.DrivenAdapter.csproj": {
+    "C:\\Users\\kevin\\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\\Sofka\\Training\\Dev\\Semana 8\\Dapper_Movies\\Infrastructure.DrivenAdapter\\Infrastructure.DrivenAdapter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\julian.escobar\\source\\repos\\Workshop_Dapper\\Infrastructure.DrivenAdapter\\Infrastructure.DrivenAdapter.csproj",
+        "projectUniqueName": "C:\\Users\\kevin\\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\\Sofka\\Training\\Dev\\Semana 8\\Dapper_Movies\\Infrastructure.DrivenAdapter\\Infrastructure.DrivenAdapter.csproj",
         "projectName": "Infrastructure.DrivenAdapter",
-        "projectPath": "C:\\Users\\julian.escobar\\source\\repos\\Workshop_Dapper\\Infrastructure.DrivenAdapter\\Infrastructure.DrivenAdapter.csproj",
-        "packagesPath": "C:\\Users\\julian.escobar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\julian.escobar\\source\\repos\\Workshop_Dapper\\Infrastructure.DrivenAdapter\\obj\\",
+        "projectPath": "C:\\Users\\kevin\\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\\Sofka\\Training\\Dev\\Semana 8\\Dapper_Movies\\Infrastructure.DrivenAdapter\\Infrastructure.DrivenAdapter.csproj",
+        "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kevin\\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\\Sofka\\Training\\Dev\\Semana 8\\Dapper_Movies\\Infrastructure.DrivenAdapter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\julian.escobar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -142,11 +142,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\julian.escobar\\source\\repos\\Workshop_Dapper\\Domain.Entities\\Domain.Entities.csproj": {
-                "projectPath": "C:\\Users\\julian.escobar\\source\\repos\\Workshop_Dapper\\Domain.Entities\\Domain.Entities.csproj"
+              "C:\\Users\\kevin\\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\\Sofka\\Training\\Dev\\Semana 8\\Dapper_Movies\\Domain.Entities\\Domain.Entities.csproj": {
+                "projectPath": "C:\\Users\\kevin\\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\\Sofka\\Training\\Dev\\Semana 8\\Dapper_Movies\\Domain.Entities\\Domain.Entities.csproj"
               },
-              "C:\\Users\\julian.escobar\\source\\repos\\Workshop_Dapper\\Domain.UseCases\\Domain.UseCases.csproj": {
-                "projectPath": "C:\\Users\\julian.escobar\\source\\repos\\Workshop_Dapper\\Domain.UseCases\\Domain.UseCases.csproj"
+              "C:\\Users\\kevin\\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\\Sofka\\Training\\Dev\\Semana 8\\Dapper_Movies\\Domain.UseCases\\Domain.UseCases.csproj": {
+                "projectPath": "C:\\Users\\kevin\\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\\Sofka\\Training\\Dev\\Semana 8\\Dapper_Movies\\Domain.UseCases\\Domain.UseCases.csproj"
               }
             }
           }
@@ -172,6 +172,10 @@
             "Dapper": {
               "target": "Package",
               "version": "[2.0.123, )"
+            },
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
             },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
@@ -202,7 +206,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
