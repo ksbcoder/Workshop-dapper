@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Peliculas.AppService",
+    "\\Peliculas.AppService\\Controllers"
   ],
-  "SelectedNode": "\\Workshop_Dapper.sln",
+  "SelectedNode": "\\Peliculas.AppService\\Controllers\\PeliculaController.cs",
   "PreviewInSolutionExplorer": false
 }
